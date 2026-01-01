@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
-import Navbar from "./component/navigation/navbar/Navbar";
+
 
 const inter = localFont({
   src: "./fonts/inter/interVF.ttf",
@@ -39,7 +39,6 @@ export default function RootLayout({
         className={`${inter.variable } antialiased`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-          <Navbar />
           {children}
         </ThemeProvider>
       </body>

@@ -55,6 +55,13 @@
   If we ever want to remove these styles, we need to add an explicit border
   color utility to any element that depends on these defaults.
 */
+.background-image-dark {
+  background-image: var(--background-image-auth-dark);
+}
+.background-image-light {
+  background-image: var(--background-image-auth-light);
+}
+
 @layer base {
 
   *,
