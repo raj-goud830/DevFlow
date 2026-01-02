@@ -1,8 +1,9 @@
 import React from 'react'
+import AuthForm from '@/app/component/navigation/navbar/forms/AuthForm';
  const signIn = () => {
 return (
 <div>
-  <h2>signIn</h2>
+  <AuthForm/>
 </div>
 );
 }

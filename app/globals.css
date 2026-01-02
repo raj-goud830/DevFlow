@@ -164,6 +164,10 @@
   @apply text-dark-400 dark:text-light-900;
 }
 
+@utility text-bgdark400_light900 {
+  @apply text-dark-400 bg-light-900;
+}
+
 @utility light-border {
   @apply border-light-800 dark:border-dark-300;
 }
